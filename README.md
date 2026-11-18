@@ -1,6 +1,6 @@
 # ClearClip Downloads
 
-ClearClip 是一个使用 Tauri 2、Rust 和 React 构建的本地桌面视频解析工具，支持皮皮虾和抖音公开普通视频分享链接，并将平台公开返回的原始/无水印播放流保存到本机。
+ClearClip 桌面端是一个使用 Tauri 2、Rust 和 React 构建的本地视频解析工具，支持皮皮虾和抖音公开普通视频分享链接，并将平台公开返回的原始/无水印播放流保存到本机。本下载页还提供仅支持皮皮虾的 iPhone/iPad 快捷指令。
 
 ## 直接下载
 
@@ -12,6 +12,17 @@ ClearClip 是一个使用 Tauri 2、Rust 和 React 构建的本地桌面视频�
 - [下载 SHA-256 校验文件](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-0.2.0-macOS-Universal-friends.zip.sha256)
 
 解压后按住 Control 点击 `install.command`，选择“打开”。朋友分享版没有提交 Apple 公证；如果系统阻止首次打开，请前往“系统设置 → 隐私与安全性”，点击“仍要打开”。
+
+### iPhone/iPad 皮皮虾快捷指令
+
+不依赖电脑或 ClearClip 桌面端，只支持皮皮虾公开普通视频：
+
+- [直接安装已签名快捷指令](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾无水印.shortcut)
+- [下载快捷指令朋友版 ZIP（含中文说明）](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾快捷指令-朋友版.zip)
+- [下载快捷指令 SHA-256](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾无水印.shortcut.sha256)
+- [下载朋友版 ZIP SHA-256](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾快捷指令-朋友版.zip.sha256)
+
+在 iPhone 上打开 `.shortcut` 文件，跳转到“快捷指令”后点击“添加快捷指令”。可以从皮皮虾的分享菜单运行，也可以复制皮皮虾链接后单独运行；首次使用时需要允许网络访问和写入“照片”。快捷指令不支持抖音。
 
 ### Windows 10/11 x64
 
@@ -25,6 +36,7 @@ Windows 源码、浏览器适配和打包脚本已完成，并通过 x64 交叉�
 - 通过系统保存窗口下载 MP4，并可在文件夹中定位成品
 - 解析与下载均在本机完成，不上传视频到第三方解析服务
 - 抖音解析使用独立临时浏览器目录，不读取个人 Cookie 或浏览器配置
+- iPhone/iPad 快捷指令可从皮皮虾分享菜单直接解析并保存到“照片”
 
 ## 使用范围
 
