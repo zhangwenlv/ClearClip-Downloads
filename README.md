@@ -17,10 +17,10 @@ ClearClip 桌面端是一个使用 Tauri 2、Rust 和 React 构建的本地视�
 
 不依赖电脑或 ClearClip 桌面端，只支持皮皮虾公开普通视频：
 
-- [直接安装已签名快捷指令](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾无水印.shortcut)
-- [下载快捷指令朋友版 ZIP（含中文说明）](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾快捷指令-朋友版.zip)
-- [下载快捷指令 SHA-256](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾无水印.shortcut.sha256)
-- [下载朋友版 ZIP SHA-256](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-皮皮虾快捷指令-朋友版.zip.sha256)
+- [直接安装已签名快捷指令](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-Pipixia-Shortcut.shortcut)
+- [下载快捷指令朋友版 ZIP（含中文说明）](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-Pipixia-Shortcut-Friends.zip)
+- [下载快捷指令 SHA-256](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-Pipixia-Shortcut.shortcut.sha256)
+- [下载朋友版 ZIP SHA-256](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-Pipixia-Shortcut-Friends.zip.sha256)
 
 在 iPhone 上打开 `.shortcut` 文件，跳转到“快捷指令”后点击“添加快捷指令”。可以从皮皮虾的分享菜单运行，也可以复制皮皮虾链接后单独运行；首次使用时需要允许网络访问和写入“照片”。快捷指令不支持抖音。
 

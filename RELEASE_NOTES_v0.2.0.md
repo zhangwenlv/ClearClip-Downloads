@@ -5,8 +5,8 @@
 ## 本次提供
 
 - `ClearClip-0.2.0-macOS-Universal-friends.zip`
-- `ClearClip-皮皮虾无水印.shortcut`（iPhone/iPad 已签名快捷指令）
-- `ClearClip-皮皮虾快捷指令-朋友版.zip`（快捷指令与中文安装说明）
+- `ClearClip-Pipixia-Shortcut.shortcut`（iPhone/iPad 已签名快捷指令）
+- `ClearClip-Pipixia-Shortcut-Friends.zip`（快捷指令与中文安装说明）
 - 上述文件对应的 SHA-256 校验文件
 
 macOS 包同时支持 Apple Silicon 与 Intel，包含 ClearClip.app、安装脚本和中文使用说明。
