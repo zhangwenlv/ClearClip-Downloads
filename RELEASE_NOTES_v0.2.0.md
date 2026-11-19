@@ -5,6 +5,7 @@
 ## 本次提供
 
 - `ClearClip-0.2.0-macOS-Universal-friends.zip`
+- `ClearClip-0.2.0-Windows-x64-friends.zip`（待 Windows 10/11 x64 实机验证）
 - `ClearClip-Pipixia-Shortcut.shortcut`（iPhone/iPad 已签名快捷指令）
 - `ClearClip-Pipixia-Shortcut-Friends.zip`（快捷指令与中文安装说明）
 - 上述文件对应的 SHA-256 校验文件
@@ -21,7 +22,8 @@ iPhone/iPad 快捷指令不依赖电脑或桌面端，只支持皮皮虾公开�
 - 抖音公开链接真实解析通过，并取得 2160×3840、60fps 的 HEVC/ByteVC1 无水印流
 - 前端生产构建和 Rust 测试通过
 - Windows x64 交叉编译与 Release 链接构建通过
+- GitHub `windows-latest` 原生打包通过，Windows ZIP 已校验并确认包含 NSIS EXE 和 x64 MSI
 
-Windows NSIS/MSI 安装包将在 Windows 10/11 x64 真机完成端到端验证后补充，不发布未实测的交叉编译文件。
+Windows 安装包已按使用者要求提前提供测试下载，尚未在 Windows 10/11 x64 真机完成抖音、皮皮虾、视频保存和文件夹定位验证；发现问题后会移除或替换。
 
 仅用于下载你有权保存和使用的公开内容；不绕过登录、付费权限、DRM 或网站访问控制。

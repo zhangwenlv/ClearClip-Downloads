@@ -24,9 +24,14 @@ ClearClip 桌面端是一个使用 Tauri 2、Rust 和 React 构建的本地视�
 
 在 iPhone 上打开 `.shortcut` 文件，跳转到“快捷指令”后点击“添加快捷指令”。可以从皮皮虾的分享菜单运行，也可以复制皮皮虾链接后单独运行；首次使用时需要允许网络访问和写入“照片”。快捷指令不支持抖音。
 
-### Windows 10/11 x64
+### Windows 10/11 x64（待实机验证）
 
-Windows 源码、浏览器适配和打包脚本已完成，并通过 x64 交叉编译及 Release 链接检查。正式 NSIS/MSI 安装包仍需在 Windows 10/11 x64 真机完成抖音、皮皮虾、下载和文件夹定位验证后上传，因此当前 Release 不提供未实测的 Windows 文件。
+由 GitHub 托管的 `windows-latest` 环境原生构建，朋友版 ZIP 内含 NSIS `setup.exe`、x64 MSI 和中文说明：
+
+- [下载 ClearClip 0.2.0 Windows x64 朋友版](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-0.2.0-Windows-x64-friends.zip)
+- [下载 SHA-256 校验文件](https://github.com/zhangwenlv/ClearClip-Downloads/releases/latest/download/ClearClip-0.2.0-Windows-x64-friends.zip.sha256)
+
+解压后优先双击名称中含 `setup` 的 EXE，也可以使用 MSI。这个包已通过云端原生构建、ZIP 校验和安装程序结构检查，但尚未在真实 Windows 桌面完成抖音、皮皮虾、视频保存和文件夹定位测试。Windows SmartScreen 可能提示未知发布者；确认文件来自本页面后，可选择“更多信息 → 仍要运行”。如果应用无法显示窗口，请安装 Microsoft Edge WebView2 Runtime。
 
 ## 功能
 
