@@ -21,6 +21,7 @@ iPhone/iPad 快捷指令不依赖电脑或桌面端，只支持皮皮虾公开�
 - 皮皮虾公开链接真实解析通过
 - 抖音公开链接真实解析通过，并取得 2160×3840、60fps 的 HEVC/ByteVC1 无水印流
 - 前端生产构建和 Rust 测试通过
+- macOS 与 Windows 应用图标已统一视觉尺寸，与 FlowDM 的主体占比一致
 - Windows x64 交叉编译与 Release 链接构建通过
 - GitHub `windows-latest` 原生打包通过，Windows ZIP 已校验并确认包含 NSIS EXE 和 x64 MSI
 
